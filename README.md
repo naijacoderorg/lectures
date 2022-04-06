@@ -1,6 +1,12 @@
 # lectures
 Lecture Materials
 
+## Resources (from Adam Kalai)
+
+- https://colab.research.google.com/drive/15QzUb-368_UXscwxWfeRw4rHYB9Hd6AC?usp=sharing
+
+- https://colab.research.google.com/drive/1CddczQhXFuMXg3o6WauskiycwtHyXakk?usp=sharing
+
 ## Resources (from Sasha Golovnev)
 
 See this for an example: http://dm.compsciclub.ru/app/quiz-bridges. 
