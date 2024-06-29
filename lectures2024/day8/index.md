@@ -1,4 +1,4 @@
-Day 7: Sorting Algorithms: Bubble, Selection, Insertion
+Day 8: Sorting Algorithms: Bubble, Selection, Insertion
 =======================================================
 
 Morning
