@@ -67,18 +67,6 @@ for i in range(1, 6):  # Range from 1 to 5 (inclusive)
 # 5
 ```
 
-### Example: Iterating over a Dictionary
-
-```python
-# Iterating over a dictionary
-person = {'name': 'Alice', 'age': 30, 'city': 'Wonderland'}
-for key, value in person.items():
-    print(f"{key}: {value}")
-# Output:
-# name: Alice
-# age: 30
-# city: Wonderland
-```
 
 ### `break` and `continue` Statements
 
@@ -271,17 +259,15 @@ Certainly! Here are some exercises to practice `for` loops and recursion in Pyth
    * * * * *
    ```
 
-5. **Count Characters**: Write a function that counts the number of occurrences of each character in a given string using a dictionary and a `for` loop.
+5. **Fibonacci Sequence**: Write a function to print the first `n` numbers in the Fibonacci sequence using a `for` loop.
 
-6. **Fibonacci Sequence**: Write a function to print the first `n` numbers in the Fibonacci sequence using a `for` loop.
+6. **List Comprehension**: Convert a list of integers into their squares using list comprehension and print the result.
 
-7. **List Comprehension**: Convert a list of integers into their squares using list comprehension and print the result.
+7. **Multiplication Table**: Write a function that prints the multiplication table (up to 10) using nested `for` loops.
 
-8. **Multiplication Table**: Write a function that prints the multiplication table (up to 10) using nested `for` loops.
+8. **Prime Numbers**: Write a function to print all prime numbers up to `n` using a `for` loop and a helper function.
 
-9. **Prime Numbers**: Write a function to print all prime numbers up to `n` using a `for` loop and a helper function.
-
-10. **Character Pyramid**: Write a function that prints a pyramid of characters up to a given height `n` using nested `for` loops.
+9. **Character Pyramid**: Write a function that prints a pyramid of characters up to a given height `n` using nested `for` loops.
 
 ### Exercises for Recursion
 
