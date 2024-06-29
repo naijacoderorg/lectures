@@ -107,3 +107,62 @@ print("Hello,", name)  # Output: Hello, Alice
 ### Conclusion
 
 Variables in Python are essential for storing and manipulating data in your programs. They are dynamically typed and flexible, allowing you to work with different types of data seamlessly. Understanding how to declare, assign, and use variables effectively is fundamental to writing Python code.
+
+In Python, comments are used to annotate code for various purposes such as explaining functionality, providing documentation, or temporarily disabling code. Comments are ignored by the Python interpreter during execution and are purely for human readers. They help improve code readability and understanding, especially for yourself and other developers who may work on the code later.
+
+### Types of Comments in Python
+
+Python supports two types of comments:
+
+#### 1. Single-line Comments
+
+Single-line comments begin with the `#` character and continue until the end of the line. They are typically used for short comments on a single line of code.
+
+##### Example of Single-line Comment:
+
+```python
+# This is a single-line comment
+x = 5  # Assigning value 5 to variable x
+```
+
+#### 2. Multi-line Comments (Docstrings)
+
+Multi-line comments, also known as docstrings, are used for documenting modules, classes, functions, or methods. They are enclosed in triple quotes (`""" """` or `''' '''`) and can span multiple lines. While docstrings are primarily used for documentation, they can also be used as multi-line comments.
+
+##### Example of Multi-line Comment (Docstring):
+
+```python
+"""
+This is a multi-line comment (docstring).
+It can span multiple lines and is used for documentation.
+"""
+```
+
+### Best Practices for Using Comments
+
+- **Use Comments Sparingly**: Write code that is self-explanatory where possible. Use comments to clarify complex logic or important details.
+- **Be Clear and Concise**: Write clear comments that explain the intent or purpose of the code without stating the obvious.
+- **Update Comments**: Keep comments up-to-date with the code. If you modify the code's behavior, ensure the corresponding comments are also updated.
+- **Avoid Redundant Comments**: Avoid comments that simply repeat what the code is doing. Comments should provide additional context or explain why something is done a certain way.
+- **Use Docstrings for Documentation**: Use docstrings to document classes, functions, and methods according to Python's documentation conventions (PEP 257).
+
+### Example of Good Commenting Practices
+
+```python
+# Calculate the area of a rectangle
+length = 5
+width = 3
+area = length * width  # Formula: length * width
+print(f"The area of the rectangle is {area}")
+```
+
+### When to Use Comments
+
+- **Explanation of Code**: Explain complex algorithms or logic that might not be immediately clear.
+- **TODO Comments**: Mark places where you intend to add more code or improvements in the future (`# TODO: Implement error handling`).
+- **Debugging**: Temporarily comment out code for debugging purposes (`# print(some_variable)`).
+- **Documentation**: Use docstrings to document modules, classes, functions, and methods for generating documentation using tools like Sphinx.
+
+### Conclusion
+
+Comments in Python are valuable for enhancing code readability, explaining functionality, and providing documentation. By using comments effectively and following best practices, you can create code that is easier to understand, maintain, and collaborate on with other developers.
