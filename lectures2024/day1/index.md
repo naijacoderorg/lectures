@@ -12,8 +12,9 @@ Morning
 
 **Keynote**: Jelani Nelson (1-2 hours for discussion with students, instructors)
 
-**Main Textbook**: Share CLRS textbook with students; take cursory look at the topics to cover.
-Algorithms: “Introduction to Algorithms” 
+**Main Textbook**: Share CLRS textbook with students; take cursory look at the topics to cover [1].
+
+[1] “Introduction to Algorithms” 
 By Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein.
 
 
