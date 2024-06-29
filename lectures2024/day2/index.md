@@ -668,25 +668,6 @@ char_back = chr(ascii_value)
 print(char_back)  # Output: B
 ```
 
-### Iterating Over Characters in a String
-You can iterate over characters in a string and get their ASCII values using `ord`.
-
-```python
-# Iterate over characters in a string and print their ASCII values
-string = "Hello"
-ascii_values = [ord(char) for char in string]
-print(ascii_values)  # Output: [72, 101, 108, 108, 111]
-```
-
-### Converting a List of ASCII Values to a String
-You can convert a list of ASCII values back to a string using `chr`.
-
-```python
-# Convert a list of ASCII values back to a string
-ascii_values = [72, 101, 108, 108, 111]
-string = ''.join(chr(value) for value in ascii_values)
-print(string)  # Output: Hello
-```
 
 These examples show how to use `ord` and `chr` to work with characters and their corresponding ASCII (or Unicode) values in Python.
 
