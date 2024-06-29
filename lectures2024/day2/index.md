@@ -257,6 +257,134 @@ print(u)  # Output: False
 
 These examples demonstrate the basic usage of boolean types, including their values, operations, conversions, and use in conditional statements.
 
+In Python, `if` statements are used for conditional execution of code based on evaluating expressions. The `if` statement allows you to execute a block of code if a specified condition is true. Optionally, you can also include `else` and `elif` (short for "else if") statements to specify alternative blocks of code to execute when the `if` condition is false or when additional conditions need to be checked.
+
+### Basic `if` Statement
+
+The basic syntax of the `if` statement in Python is as follows:
+
+```python
+if condition:
+    # Block of code to execute if condition is true
+    statement(s)
+```
+
+- **`condition`**: An expression that evaluates to `True` or `False`.
+- **`statement(s)`**: Code to be executed if the condition is `True`. Indentation (typically 4 spaces) is crucial in Python to indicate the scope of the code block.
+
+#### Example 1: Simple `if` Statement
+
+```python
+# Example of a simple if statement
+x = 10
+if x > 5:
+    print("x is greater than 5")
+```
+
+Output:
+```
+x is greater than 5
+```
+
+### `if`...`else` Statement
+
+The `else` statement is used to execute a block of code when the `if` condition is `False`. The syntax is:
+
+```python
+if condition:
+    # Block of code to execute if condition is true
+    statement(s)
+else:
+    # Block of code to execute if condition is false
+    statement(s)
+```
+
+#### Example 2: `if`...`else` Statement
+
+```python
+# Example of if...else statement
+x = 2
+if x > 5:
+    print("x is greater than 5")
+else:
+    print("x is not greater than 5")
+```
+
+Output:
+```
+x is not greater than 5
+```
+
+### `if`...`elif`...`else` Statement
+
+The `elif` statement allows you to check multiple conditions. It is short for "else if". You can have multiple `elif` blocks followed by an optional `else` block. The syntax is:
+
+```python
+if condition1:
+    # Block of code to execute if condition1 is true
+    statement(s)
+elif condition2:
+    # Block of code to execute if condition2 is true
+    statement(s)
+else:
+    # Block of code to execute if all conditions are false
+    statement(s)
+```
+
+#### Example 3: `if`...`elif`...`else` Statement
+
+```python
+# Example of if...elif...else statement
+x = 10
+if x > 15:
+    print("x is greater than 15")
+elif x > 5:
+    print("x is greater than 5 but not greater than 15")
+else:
+    print("x is 5 or less")
+```
+
+Output:
+```
+x is greater than 5 but not greater than 15
+```
+
+### Nested `if` Statements
+
+You can also nest `if` statements within each other to create more complex conditional logic.
+
+#### Example 4: Nested `if` Statements
+
+```python
+# Example of nested if statements
+x = 10
+if x > 5:
+    if x > 15:
+        print("x is greater than 15")
+    else:
+        print("x is greater than 5 but not greater than 15")
+else:
+    print("x is 5 or less")
+```
+
+Output:
+```
+x is greater than 5 but not greater than 15
+```
+
+### Conditional Expressions (Ternary Operator)
+
+Python also supports a concise way to write conditional expressions known as the ternary operator `if`...`else` expression.
+
+#### Example 5: Ternary Operator
+
+```python
+# Ternary operator example
+x = 10
+result = "x is greater than 5" if x > 5 else "x is 5 or less"
+print(result)  # Output: x is greater than 5
+```
+
 In Python, `NoneType` is the type of the `None` object, which is used to represent the absence of a value or a null value. Here's an overview of `NoneType` and a simple use:
 
 ### Assigning None to a variable
