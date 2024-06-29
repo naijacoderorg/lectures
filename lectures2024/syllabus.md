@@ -1,1 +1,12 @@
-https://docs.google.com/document/d/1JkLk88w9OnORlfkCroYLo8SQO-Bmur08jFBr_EBqACU/edit
+Syllabus
+========
+* Day 1: Introductions and Motivations
+* Day 2: Types in Python
+* Day 3: For Loops and Recursion
+* Day 4: More Methods of Iteration in Python
+* Day 5: Objects, Libraries, Data Science
+* Day 6: Growth of Functions
+* Day 7: Searching Algorithms
+* Day 8: Sorting Algorithms: Bubble, Selection, Insertion
+* Day 9: Sorting Algorithms: Part 2
+* Day 10: Review, Recap, Exam
