@@ -671,6 +671,133 @@ print(char_back)  # Output: B
 
 These examples show how to use `ord` and `chr` to work with characters and their corresponding ASCII (or Unicode) values in Python.
 
+Certainly! Here are examples demonstrating the use of dictionaries and sets in Python, showcasing their features and common operations.
+
+### Dictionaries
+
+Dictionaries in Python are mutable, unordered collections of key-value pairs. They are widely used for mapping keys to values and are denoted by curly braces `{}`.
+
+#### Example 1: Creating a Dictionary
+
+```python
+# Creating a dictionary
+person = {'name': 'Alice', 'age': 30, 'city': 'Wonderland'}
+print(person)  # Output: {'name': 'Alice', 'age': 30, 'city': 'Wonderland'}
+```
+
+#### Example 2: Accessing Values
+
+```python
+# Accessing values in a dictionary
+print(person['name'])  # Output: Alice
+print(person.get('age'))  # Output: 30
+```
+
+#### Example 3: Modifying and Adding Elements
+
+```python
+# Modifying values in a dictionary
+person['age'] = 31
+print(person)  # Output: {'name': 'Alice', 'age': 31, 'city': 'Wonderland'}
+
+# Adding a new key-value pair
+person['job'] = 'Engineer'
+print(person)  # Output: {'name': 'Alice', 'age': 31, 'city': 'Wonderland', 'job': 'Engineer'}
+```
+
+#### Example 4: Iterating Through a Dictionary
+
+```python
+# Iterating through a dictionary
+for key, value in person.items():
+    print(f"{key}: {value}")
+
+# Output:
+# name: Alice
+# age: 31
+# city: Wonderland
+# job: Engineer
+```
+
+#### Example 5: Dictionary Comprehension
+
+```python
+# Dictionary comprehension to create a new dictionary
+numbers = [1, 2, 3, 4, 5]
+squared_numbers = {num: num**2 for num in numbers}
+print(squared_numbers)  # Output: {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+```
+
+### Sets
+
+Sets in Python are unordered collections of unique elements, denoted by curly braces `{}`.
+
+#### Example 1: Creating a Set
+
+```python
+# Creating a set
+fruits = {'apple', 'banana', 'orange'}
+print(fruits)  # Output: {'orange', 'apple', 'banana'}
+```
+
+#### Example 2: Adding and Removing Elements
+
+```python
+# Adding elements to a set
+fruits.add('pear')
+print(fruits)  # Output: {'orange', 'apple', 'pear', 'banana'}
+
+# Removing elements from a set
+fruits.remove('banana')
+print(fruits)  # Output: {'orange', 'apple', 'pear'}
+```
+
+#### Example 3: Set Operations
+
+```python
+# Set operations (union, intersection, difference)
+set1 = {1, 2, 3, 4, 5}
+set2 = {4, 5, 6, 7, 8}
+
+# Union
+union_set = set1 | set2
+print(union_set)  # Output: {1, 2, 3, 4, 5, 6, 7, 8}
+
+# Intersection
+intersection_set = set1 & set2
+print(intersection_set)  # Output: {4, 5}
+
+# Difference
+difference_set = set1 - set2
+print(difference_set)  # Output: {1, 2, 3}
+```
+
+#### Example 4: Iterating Through a Set
+
+```python
+# Iterating through a set
+for fruit in fruits:
+    print(fruit)
+
+# Output:
+# orange
+# apple
+# pear
+```
+
+#### Example 5: Set Comprehension
+
+```python
+# Set comprehension to create a new set
+numbers = [1, 2, 3, 4, 5, 5, 4, 3, 2, 1]
+unique_numbers = {num for num in numbers}
+print(unique_numbers)  # Output: {1, 2, 3, 4, 5}
+```
+
+### Conclusion
+
+Dictionaries and sets are versatile data structures in Python with distinct features and functionalities. Dictionaries are ideal for key-value mappings and allow efficient access and modification of data. Sets, on the other hand, are useful for storing unique elements and performing set operations such as union, intersection, and difference. Understanding these data structures and their operations will enhance your ability to work with data effectively in Python.
+
 Exercises
 ---------
 1. Convert "12345" into a python list [1, 2, 3, 4, 5] and vice-versa. Can you put the code inside a function?
