@@ -152,6 +152,11 @@ Python libraries expand the capabilities of Python beyond its core features, all
 Exercises
 ---------
 
+### Homework for Next Week
+1. Read chapter 1 (The Role of Algorithms in Computing) in CLRS
+2. Read chapter 2 (Getting Started) in CLRS
+3. Read chapter 3 (Growth of Functions) in CLRS
+
 ### Exercise 1: Using NumPy
 
 1. **Create a NumPy array**: Create a 1D array of integers from 1 to 10.
