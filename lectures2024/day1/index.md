@@ -9,6 +9,7 @@ Morning
 * Discussion on computer science, data science, and mathematics networks in Nigeria.
 * Make sure they can log in to computers and have a google account for Google Colab.
 * Emphasize the goal: for them to become scientists, engineers, and mathematicians.
+* Make sure *everyone* is signed up for the mailing list.
 
 **Keynote**: Jelani Nelson (1-2 hours for discussion with students, instructors)
 
