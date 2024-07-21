@@ -238,6 +238,10 @@ print(sum_list([1, 2, 3, 4, 5]))  # Output: 15
 
 Recursion is a powerful tool for solving problems that can be broken down into smaller, similar sub-problems. By understanding the base case and recursive case, you can effectively use recursion to solve a wide range of problems. However, always be mindful of performance implications and consider iterative solutions when appropriate.
 
+###Applied Computer Science and Data Analytics: Tackling Climate Change
+
+If time permits, lecture from Alida on applying data analytics and computer science to tackling climate change. 
+
 Exercises
 ---------
 Certainly! Here are some exercises to practice `for` loops and recursion in Python. These exercises range from basic to more advanced, covering different aspects of iteration and recursion techniques.
