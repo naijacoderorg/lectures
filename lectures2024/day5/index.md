@@ -145,7 +145,7 @@ print(df)
 
 Each library has comprehensive documentation that includes installation instructions, usage guides, and examples. Refer to the official documentation or community resources (like Stack Overflow) for help and examples specific to your use case.
 
-#### Applied Computer Science and Data Analytics: Tackling Climate Change
+### Applied Computer Science and Data Analytics: Tackling Climate Change
 
 If time permits, lecture from Alida on applying data analytics and computer science to tackling climate change. 
 
