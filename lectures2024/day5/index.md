@@ -145,6 +145,10 @@ print(df)
 
 Each library has comprehensive documentation that includes installation instructions, usage guides, and examples. Refer to the official documentation or community resources (like Stack Overflow) for help and examples specific to your use case.
 
+#### Applied Computer Science and Data Analytics: Tackling Climate Change
+
+If time permits, lecture from Alida on applying data analytics and computer science to tackling climate change. 
+
 ### Conclusion
 
 Python libraries expand the capabilities of Python beyond its core features, allowing you to efficiently tackle a wide range of tasks and domains. By leveraging libraries, you can accelerate development, improve code quality, and access powerful tools and algorithms developed and maintained by the Python community and experts worldwide. Familiarize yourself with the libraries relevant to your projects to maximize productivity and effectiveness in Python programming.
