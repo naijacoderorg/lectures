@@ -67,6 +67,7 @@ Try out the following attributes and methods to learn more about your dataset.
 + df.values
 + df.info()
 + df.describe()
++ df.isnull().sum()
 
 ## Asking Good Data Questions
 
