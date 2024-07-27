@@ -1,4 +1,4 @@
-Day 1: Introduction to Data Science
+Session 1: Introduction to Data Science
 ===================================
 
 Data science is a growing field that combines mathematics, statistics, and computer science to extract meaningful insights from data. By analyzing and interpreting large amounts of information, data scientists can uncover patterns, make predictions, and help solve complex problems. In this introduction to data science, you will learn how to use Python to analyze real-world data.
