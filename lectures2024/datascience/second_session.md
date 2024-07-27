@@ -1,4 +1,4 @@
-Day 2. Exploring the Data
+Session 2. Exploring the Data
 ====================
 
 ## Reflection for Last Day:
