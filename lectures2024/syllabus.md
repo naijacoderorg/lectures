@@ -10,3 +10,8 @@ Syllabus
 * Day 8: Sorting Algorithms: Bubble, Selection, Insertion
 * Day 9: Sorting Algorithms: Part 2
 * Day 10: Review, Recap, Exam
+
+Times
+=====
+* Morning Session: 8am-12am
+* Afternoon Session: 1pm-3pm
