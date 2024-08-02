@@ -13,5 +13,6 @@ Syllabus
 
 Times
 =====
-* Morning Session: 8am-12am
+* Morning Session: 8am-12pm
+* Lunch: 12pm-1pm
 * Afternoon Session: 1pm-3pm
