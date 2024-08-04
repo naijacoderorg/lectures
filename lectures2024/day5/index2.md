@@ -82,28 +82,32 @@ Understanding objects and classes in Python is crucial for leveraging the power 
 Afternoon - Data Science Part 1
 ---------
 
+Data science is a growing field that combines mathematics, statistics, and computer science to extract meaningful insights from data. By analyzing and interpreting large amounts of information, data scientists can uncover patterns, make predictions, and help solve complex problems. In this introduction to data science, you will learn how to use Python to analyze real-world data.
+
+
+#### Learning Objectives
+By the end of today's session, you will have learned:
+- To ask good questions about your data in preparation for analysis,
+- To install and import a python library,
+- To read data into python from a url,
+- To identify the level of observation of a dataset,
+- To explore a pandas dataframe by applying attributes and methods on it.
+
 ### Applied Data Science: Tackling Climate Change
 
 Lecture from Alida on applying data analytics and computer science to tackling climate change. 
 
-### What is a Python Library?
+### Python Libraries
 
 A Python library is a collection of functions and methods that allows you to perform specific tasks without having to write the code yourself from scratch. Libraries are designed to be reusable, saving development time and effort by providing pre-written solutions to common programming challenges.
 
-### Popular Python Libraries
-
-Python has a vast ecosystem of libraries covering various domains. Some popular libraries include:
+Python has a vast ecosystem of libraries covering various domains. Three of the most popular libraries for data science projects are:
 
 - **Pandas**: Data analysis library that provides high-performance data structures and tools for manipulating structured data.
 - **NumPy**: Numerical computing library for handling large arrays and matrices of numeric data.
 - **Matplotlib**: 2D plotting library for creating static, animated, and interactive visualizations.
-- **Requests**: HTTP library for making HTTP requests and interacting with web APIs.
-- **Django**: Web framework for building web applications using the model-template-views (MTV) architectural pattern.
-- **Flask**: Lightweight web framework for building web applications with a flexible and modular structure.
-- **TensorFlow** and **PyTorch**: Libraries for machine learning and deep learning, providing tools for building and training neural networks.
-- **NLTK (Natural Language Toolkit)**: Library for natural language processing (NLP) tasks such as tokenization, stemming, tagging, parsing, and more.
 
-**We will mainly use `pandas` for our data science work, so let us learn how to install and import it into Python.**
+You can learn about other popular python packages and their uses [here](https://www.geeksforgeeks.org/python-libraries-to-know/).
 
 #### 1. Installing Libraries
 
@@ -126,21 +130,15 @@ import numpy as np
 import pandas as pd
 ```
 
-### Introduction to Data Science
-
-Data science is a growing field that combines mathematics, statistics, and computer science to extract meaningful insights from data. By analyzing and interpreting large amounts of information, data scientists can uncover patterns, make predictions, and help solve complex problems. In this introduction to data science, you will learn how to use Python to analyze real-world data.
-
 ### Japa!
 
-Every data science project begins with data, and understanding the context behind the data is crucial for gaining meaningful insights.
+Every data science project begins with data, and understanding the context behind the data is crucial for extracting meaningful insights.
 
 Our dataset is extracted from the [World Bank's](https://databank.worldbank.org/source/global-bilateral-migration) Global Bilateral Migration database. The dataset provides detailed information on international migration patterns between countries. It includes data on the number of migrants by origin and destination countries, from 1960 to 2000, in ten-year intervals. This dataset can help in analyzing migration trends, demographic changes, and the impacts of migration on economies and societies globally. It is a valuable resource for researchers, policymakers, and organizations involved in migration studies and related fields.
 
-**For our project, we will use a subset of this data containing only migrations flows that originate from an African origin country.**
-
 Let's spend some time exploring the dataset.
 
-### Load the data
+#### Load the data
 
 We begin by loading the data into Python using the `pandas` library which offers many useful functions for reading data. Our dataset is a CSV file stored in a GitHub repository; hence, we will use its URL with the `read_csv()` function to access it. _You can find more examples on reading in csv files [here](https://www.geeksforgeeks.org/reading-csv-files-in-python/)._
 
@@ -152,14 +150,14 @@ df = pd.read_csv(url)
 ```
 df is short form for DataFrame. It's a lazy way to name our initial dataset. We should be more specific in our naming in the future.
 
-### Pandas DataFrame Attributes and Methods
+#### Pandas DataFrame Attributes and Methods
 
-Let's check what class our data object has inherited.
+When we pull in data using pandas read.csv, the object we obtain inherits a class of Pandas DataFrame.
 
 ```python
 df.__class__ # check for the class of df
 ```
-As a pandas dataframe, our `df` object has certain attributes and methods. An attribute in programming is a property of an object that stores data about that object. A method is a function that can perform an action on an object of the specified class. Both attributes and methods are accessed using dot notation, but methods additionally have parentheses `()` because they are functions, even when no arguments are specified.
+As a pandas dataframe, our `df` object has certain attributes and methods. An **attribute** in programming is a property of an object that stores data about that object. A **method** is a function that can perform an action on an object of the specified class. Both attributes and methods are accessed using dot notation, but methods additionally have parentheses `()`—because they are functions—even when no arguments are specified.
 
 Let's explore some DataFrame attributes and methods for our dataset.
 
@@ -173,9 +171,9 @@ df.head()
 
 Our dataset is tabular. This means that it has rows and columns. The rows represent a single observation, and the columns are features that contain specific information (like country of origin) on each observation. 
 
-Whenever we explore a dataset, one of the first questions we should ask ourselves is this: **What is the level of an observation?** Can you describe what information a specific row gives you?
+Whenever we explore a dataset, one of the first questions we ask ourselves is this: **What is the level of an observation?** Can you describe what information a specific row gives you?
 
-In this case, each row of the dataset represents a specific migration flow over time. For example, the first row shows the number of migrations from Nigeria (the origin) to Afghanistan (the destination) for the years 1960, 1970, 1980, 1990, and 2000. We always spend time ensuring that we understand what each observation represents as the rest of our analysis is hinged on this knowledge.
+In this case, each row of the dataset represents a specific migration flow over time. For example, the third row shows the number of migrations from Afghanistan (the origin) to Algeria (the destination) for the years 1960, 1970, 1980, 1990, and 2000. We always spend time ensuring that we understand what each observation represents as the rest of our analysis is hinged on this knowledge.
 
 #### `.shape` displays the number of rows and columns
 
