@@ -257,3 +257,62 @@ Exercises
 1. Read chapter 1 (The Role of Algorithms in Computing) in CLRS
 2. Read chapter 2 (Getting Started) in CLRS
 3. Read chapter 3 (Growth of Functions) in CLRS
+
+### Exercise 1: Using NumPy
+
+1. **Create a NumPy array**: Create a 1D array of integers from 1 to 10.
+2. **Calculate statistics**: Compute the mean, median, and standard deviation of the array.
+3. **Reshape the array**: Reshape the array into a 2D matrix with 2 rows and 5 columns.
+4. **Perform element-wise operations**: Multiply each element of the matrix by 2.
+5. **Indexing and slicing**: Extract the second row of the matrix.
+
+### Exercise 2: Using Pandas
+
+1. **Create a DataFrame**: Create a Pandas DataFrame from a dictionary with columns 'Name', 'Age', and 'City'.
+2. **Read from CSV**: Load a CSV file into a DataFrame using `pd.read_csv()`.
+3. **Data manipulation**: Add a new column 'Salary' to the DataFrame with random salary values.
+4. **Filtering and querying**: Filter rows where 'Age' is greater than 30 and 'City' is 'New York'.
+5. **Grouping and aggregation**: Group the data by 'City' and calculate the average salary for each city.
+
+### Exercise 3: Using Matplotlib
+
+1. **Line plot**: Plot a simple line graph of `y = sin(x)` for values of `x` from 0 to 2π.
+2. **Scatter plot**: Generate random data points (x, y) and plot them as a scatter plot.
+3. **Histogram**: Create a histogram of random data with 50 bins.
+4. **Customizing plots**: Customize the plot by adding labels to axes, a title, and a legend (if applicable).
+5. **Subplots**: Create a figure with multiple subplots, each displaying different types of plots (e.g., line plot, scatter plot).
+
+### Exercise 4: Combined Exercises
+
+1. **Data manipulation and visualization**: Load a dataset (e.g., from Seaborn's built-in datasets or CSV), perform data manipulation using Pandas (e.g., filtering, grouping), and visualize the results using Matplotlib (e.g., bar plot, box plot).
+
+### Example Solutions
+
+Here's a brief example of how you might approach Exercise 1 using NumPy:
+
+```python
+import numpy as np
+
+# Exercise 1: Using NumPy
+# 1. Create a NumPy array
+array = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+
+# 2. Calculate statistics
+mean = np.mean(array)
+median = np.median(array)
+std_dev = np.std(array)
+
+print(f"Mean: {mean}, Median: {median}, Standard Deviation: {std_dev}")
+
+# 3. Reshape the array
+matrix = array.reshape(2, 5)
+print("Reshaped matrix:\n", matrix)
+
+# 4. Perform element-wise operations
+matrix *= 2
+print("Matrix after multiplying by 2:\n", matrix)
+
+# 5. Indexing and slicing
+second_row = matrix[1, :]
+print("Second row of matrix:", second_row)
+```
