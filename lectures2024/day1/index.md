@@ -19,6 +19,9 @@ Morning
 [1] “Introduction to Algorithms” 
 By Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein.
 
+### Applied Data Science: Tackling Climate Change
+
+Lecture from Alida on applying data analytics and computer science to tackling climate change. 
 
 Afternoon
 ---------
