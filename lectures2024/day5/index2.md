@@ -93,9 +93,6 @@ By the end of today's session, you will have learned:
 - To identify the level of observation of a dataset,
 - To explore a pandas dataframe by applying attributes and methods on it.
 
-### Applied Data Science: Tackling Climate Change
-
-Lecture from Alida on applying data analytics and computer science to tackling climate change. 
 
 ### Python Libraries
 
