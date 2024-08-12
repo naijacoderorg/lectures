@@ -1,9 +1,6 @@
 Day 6: Growth of Functions
 ===========================
 
-Morning
--------
-
 ### Reflection from Last Day:
 * Answer questions about for objects, libraries in Python
 * Discuss exercises from previous day
@@ -162,8 +159,8 @@ In other words, $g(n)$ is in $\omega(f(n))$ if for every positive constant $c > 
 - **Precision**: These notations provide a more precise characterization of asymptotic relationships compared to Big O and Big Omega, especially in contexts where exact growth rates are important.
 
 
-Afternoon - Data Science Part 2
----------
+Data Science Part 2
+-------------------
 ### Reflection for Last Day:
 
 - Recap of Day 1: Asking Good Questions and basic DataFrame inspections.
