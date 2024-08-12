@@ -1,8 +1,6 @@
 Day 1: Introductions and Motivations
 =====================================
 
-Morning
--------
 
 **Introductions**: 
 * Instructors introduce themselves.
@@ -19,18 +17,16 @@ Morning
 [1] “Introduction to Algorithms” 
 By Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein.
 
-### Applied Data Science: Tackling Climate Change
-
-Lecture from Alida on applying data analytics and computer science to tackling climate change. 
-
-Afternoon
----------
-
 Start reading chapter 1 of CLRS. 
 In-class exercises:
 1.1-1 up to 1.1-5. 1.2-1 up to 1.2-3. And 1-1 (implement using python time module).
 1-1.
 Leave the rest as homework.
+
+### Applied Data Science: Tackling Climate Change
+
+Lecture from Alida on applying data analytics and computer science to tackling climate change. 
+
 
 In Python, variables are used to store data values. Unlike some other programming languages, Python does not require explicitly declaring the data type of a variable when it is created. Instead, Python uses dynamic typing, where variables can dynamically change their type based on the value assigned to them.
 
