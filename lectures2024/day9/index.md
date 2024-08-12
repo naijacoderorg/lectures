@@ -1,8 +1,6 @@
 Day 9: Sorting Algorithms: Part 2
 =================================
 
-Morning
--------
 
 ### Reflection from Last Day:
 * Answer questions about sorting algorithms
@@ -81,7 +79,7 @@ In this implementation:
 
 Quicksort is widely used due to its average-case time complexity of $O(n \log n)$, which makes it suitable for sorting large datasets efficiently. However, care must be taken with its implementation to avoid worst-case scenarios and ensure optimal performance.
 
-Afternoon
+MergeSort
 ---------
 
 Merge Sort is a divide-and-conquer algorithm that divides the input array into smaller sub-arrays, recursively sorts them, and then merges the sorted sub-arrays to produce a final sorted array. It is known for its stable sorting behavior and consistent $O(n \log n)$ time complexity.
