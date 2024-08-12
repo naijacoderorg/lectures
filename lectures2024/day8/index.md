@@ -1,9 +1,6 @@
 Day 8: Sorting Algorithms: Bubble, Selection, Insertion
 =======================================================
 
-Morning
--------
-
 ### Reflection from Last Day:
 * Answer questions about searching algorithms
 * Discuss exercises from previous day
@@ -180,8 +177,7 @@ In this implementation:
 
 Selection Sort is straightforward to implement and understand, making it suitable for educational purposes or situations where simplicity is preferred. However, it is less efficient compared to more advanced sorting algorithms like Merge Sort or Quick Sort, especially for larger data sets.
 
-Afternoon
----------
+## Bubble Sort
 
 Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. It passes through the list multiple times until the list is sorted. Here's an introduction to Bubble Sort:
 
