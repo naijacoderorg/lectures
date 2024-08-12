@@ -1,8 +1,6 @@
 Day 4: More Methods of Iteration in Python
 ==========================================
 
-Morning
--------
 
 ### Reflection from Last Day:
 * Answer questions about for loops and recursion in Python
@@ -119,9 +117,6 @@ print(dictionary)  # Output: {'a': 1, 'b': 2, 'c': 3}
 - **Generator Expressions**: Lazy evaluated iterables, often used to create iterators using `(expression for item in iterable)` syntax.
 
 
-
-Afternoon
----------
 
 In Python, the `range()` function is used to generate a sequence of numbers. It's commonly used in `for` loops to iterate over a sequence of numbers rather than using lists of numbers directly. The `range()` function returns a sequence of numbers based on the arguments provided, which can be one, two, or three integers.
 
