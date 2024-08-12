@@ -1,12 +1,12 @@
 Day 3: For Loops and Recursion
 ==============================
 
-Morning
--------
 
 ### Reflection from Last Day:
 * Answer questions about types in Python
 * Discuss exercises from previous day
+
+## For Loops
 
 In Python, `for` loops are used to iterate over a sequence of items, such as elements in a list, characters in a string, or any iterable object. Here’s an introduction to `for` loops in Python, including basic syntax, examples of usage, and common patterns.
 
@@ -153,8 +153,7 @@ for name, age in zip(names, ages):
 `for` loops are fundamental in Python for iterating over sequences and collections of data. They provide a concise way to perform repetitive tasks and are flexible enough to handle various types of data structures and iterations. Understanding these basics is crucial for effective programming in Python.
 
 
-Afternoon
----------
+## Recursion
 
 Recursion is a programming technique where a function calls itself to solve smaller instances of the same problem. It's particularly useful for problems that can be divided into similar sub-problems. Here’s an introduction to recursion in Python, including basic concepts, examples, and key considerations.
 
