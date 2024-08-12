@@ -1,8 +1,6 @@
 Day 5: Objects, Libraries, Data Science
 =======================================
 
-Morning
--------
 
 ### Reflection from Last Day:
 * Answer questions about for iteration in Python
@@ -79,8 +77,8 @@ The `__init__` method is a special method in Python classes that is called when 
 
 Understanding objects and classes in Python is crucial for leveraging the power of object-oriented programming. By defining classes and creating objects, you can organize your code more effectively, promote code reuse, and build complex, scalable applications more efficiently. OOP is a powerful paradigm that enhances code organization, readability, and maintainability in Python and many other programming languages.
 
-Afternoon - Data Science Part 1
----------
+Data Science Part 1
+-------------------
 
 Data science is a growing field that combines mathematics, statistics, and computer science to extract meaningful insights from data. By analyzing and interpreting large amounts of information, data scientists can uncover patterns, make predictions, and help solve complex problems. In this introduction to data science, you will learn how to use Python to analyze real-world data.
 
