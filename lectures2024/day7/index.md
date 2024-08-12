@@ -1,8 +1,6 @@
 Day 7: Searching Algorithms
 ===========================
 
-Morning
--------
 
 ### Reflection from Last Day:
 * Answer questions about for asymptotic notation and growth of functions
@@ -36,8 +34,6 @@ else:
 ```
 
 
-Afternoon
----------
 
 
 ### Binary Search
