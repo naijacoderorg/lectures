@@ -1,8 +1,6 @@
 Day 2: Types in Python
 ======================
 
-Morning
--------
 
 ### Reflection from Last Day:
 * Answer questions about Chapter 1 of CLRS
@@ -401,9 +399,6 @@ else:
     print("a is not None")
 ```
 
-
-Afternoon
----------
 
 In Python, arrays can be created using different data structures, each with its own use cases and characteristics. Here are some common types of arrays in Python:
 
