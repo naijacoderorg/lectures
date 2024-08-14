@@ -882,7 +882,7 @@ print(char_back)  # Output: B
 
 These examples show how to use `ord` and `chr` to work with characters and their corresponding ASCII (or Unicode) values in Python.
 
-Certainly! Here are examples demonstrating the use of dictionaries and sets in Python, showcasing their features and common operations.
+Here are examples demonstrating the use of dictionaries and sets in Python, showcasing their features and common operations.
 
 ### Dictionaries
 
