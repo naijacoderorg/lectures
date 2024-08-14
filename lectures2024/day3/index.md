@@ -239,7 +239,7 @@ Recursion is a powerful tool for solving problems that can be broken down into s
 
 Exercises
 ---------
-Certainly! Here are some exercises to practice `for` loops and recursion in Python. These exercises range from basic to more advanced, covering different aspects of iteration and recursion techniques.
+Here are some exercises to practice `for` loops and recursion in Python. These exercises range from basic to more advanced, covering different aspects of iteration and recursion techniques.
 
 ### Exercises for `for` Loops
 
