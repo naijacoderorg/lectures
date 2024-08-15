@@ -111,7 +111,7 @@ $$c_1 \cdot |g(n)| \leq |f(n)| \leq c_2 \cdot |g(n)| \quad \text{for all } n \ge
   
 - **Constant Factors**: Similar to Big O and Big Omega notations, Big Theta ignores constant factors and lower-order terms, focusing on the dominant term that contributes most significantly to the growth rate as $n$ increases.
   
-- **Asymptotic Behavior**: Big Theta notation describes the long-term behavior of functions as $n$approaches infinity, indicating that $f(n)$ and $g(n)$ grow at the same rate.
+- **Asymptotic Behavior**: Big Theta notation describes the long-term behavior of functions as $n$ approaches infinity, indicating that $f(n)$ and $g(n)$ grow at the same rate.
 
 ### Example Interpretation
 
