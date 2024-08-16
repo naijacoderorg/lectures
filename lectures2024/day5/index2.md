@@ -140,7 +140,7 @@ We begin by loading the data into Python using the `pandas` library which offers
 ```python
 import pandas as pd
 
-url = 'https://raw.githubusercontent.com/naijacoderorg/lectures/main/lectures2024/day5/migration_africa.csv'
+url = 'https://raw.githubusercontent.com/naijacoderorg/lectures/main/lectures2024/datascience/migrations.csv'
 df = pd.read_csv(url)
 ```
 df is short form for DataFrame. It's a lazy way to name our initial dataset. We should be more specific in our naming in the future.
