@@ -180,6 +180,10 @@ In this implementation:
 
 Merge Sort is efficient and stable, making it a popular choice for sorting large datasets where stability and predictable performance are important considerations.
 
+###Exit Survey
+
+Share this survey for students to fill out: https://docs.google.com/forms/d/e/1FAIpQLScMK2gP-60YXwko2jBmWR6ZzxtrzrGyhIlLM0i-p44D_IVgGw/viewform?usp=sf_link 
+
 Exercises
 ---------
 
