@@ -248,6 +248,9 @@ In this implementation:
 
 Bubble Sort is straightforward to implement and understand but is generally inefficient for large data sets compared to more advanced sorting algorithms like Merge Sort or Quick Sort.
 
+### EducationUSA
+Special guest coming from EducationUSA. 
+
 Exercises
 ---------
 
