@@ -4,15 +4,14 @@ Day 10: Review, Recap, Exam
 Morning
 -------
 
-### Reflection from Last Day:
-* Answer questions about all the lessons so far
-* Discuss exercises from previous days
-
-Afternoon
----------
-
-### Exam
-* Award Ceremony
-* Celebrations
+### Exam:
+* Provide the open-note exam
+* Chat about teacher's education experience while TA grades exams
+* Give back exams and give cash prize
+* Go through exams
+* Award ceremony (Give out certificates)
+* Take photos
 * Resources on how to learn more
 * Keep in touch!
+* Hand out final lunch
+
