@@ -1011,3 +1011,9 @@ Exercises
 1. Convert "12345" into a python list [1, 2, 3, 4, 5] and vice-versa. Can you put the code inside a function?
 2. Add up the ASCII values of the following strings: "Nigeria", "USA", "Africa", "Botswana", "Traveler", "misc", "madam", "@tuv".
 3. Write a function to check if a number is even.
+4. Write a function to check if a number is odd.
+5. Write a function to check if a number ($n$) is divisible by another number ($t$).
+6. Write a function to return True if and only if a number is a prime number.
+7. Write a function to return the prime factors of a number. 
+8. Write a function to sum all the prime numbers in a list.
+9. Write a function to reverse a string and shift every character. e.g., "abcdef" -> "gfedcb", "123abc" -> "dcb432".
