@@ -40,7 +40,7 @@ else:
 
 **Binary search** is a more efficient searching algorithm that requires the list to be sorted. It works by repeatedly dividing the search interval in half. If the target value matches the middle element, its position is returned. Otherwise, the search continues in either the left or right half, depending on whether the target value is less than or greater than the middle element.
 
-- **Time Complexity**: $O(\log n)$ - Logarithmic time complexity, where n is the number of elements in the sorted list.
+- **Time Complexity**: $O(\log n)$ - Logarithmic time complexity on a sorted list (where n is the number of elements in the sorted list).
 
 #### Example of Binary Search in Python:
 
