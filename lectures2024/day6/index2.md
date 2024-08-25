@@ -446,8 +446,8 @@ In other words, $g(n)$ is in $\omega(f(n))$ if for every positive constant $c > 
   
 - **Precision**: These notations provide a more precise characterization of asymptotic relationships compared to Big O and Big Omega, especially in contexts where exact growth rates are important.
 
-Exercises
----------
+Exercises for Asymptotic Notation Section
+-----------------------------------------
 
 ### Exercise 1: Identifying Notations
 
