@@ -12,7 +12,7 @@ Searching algorithms are fundamental methods used to locate elements within a da
 
 **Linear search** is the simplest form of searching algorithm where each element in the list is checked sequentially until the target element is found or the end of the list is reached.
 
-- **Time Complexity**: $O(n)$ - Linear time complexity, where n is the number of elements in the list.
+- **Time Complexity**: $O(n)$ - Linear time complexity, where $n$ is the number of elements in the list.
 
 #### Example of Linear Search in Python:
 
