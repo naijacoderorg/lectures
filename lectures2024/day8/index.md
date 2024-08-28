@@ -257,7 +257,7 @@ Exercises
 ### Insertion Sort Exercises
 
 1. **Exercise 1: Implement Insertion Sort**
-   - **Problem**: Write a function `insertion_sort(arr)` that sorts an array `arr` using Insertion Sort.
+   - **Problem**: Write a function `insertion_sort(arr)` that sorts an array `arr` using Insertion Sort. Use only while loops within the function.
 
 2. **Exercise 2: Count Inversions**
    - **Problem**: Modify the `insertion_sort` function to count the number of inversions in the array. An inversion is a pair of elements `(arr[i], arr[j])` such that `i < j` and `arr[i] > arr[j]`.
@@ -268,10 +268,10 @@ Exercises
 ### Bubble Sort Exercises
 
 1. **Exercise 4: Implement Bubble Sort**
-   - **Problem**: Write a function `bubble_sort(arr)` that sorts an array `arr` using Bubble Sort.
+   - **Problem**: Write a function `bubble_sort(arr)` that sorts an array `arr` using Bubble Sort. Can you use only while loops?
 
 2. **Exercise 5: Optimized Bubble Sort**
-   - **Problem**: Modify the `bubble_sort` function to implement an optimized version of Bubble Sort that terminates early if no swaps are made in a pass.
+   - **Problem**: Modify the `bubble_sort` function to implement an optimized version of Bubble Sort that terminates early if no swaps are made in a pass. 
 
-3. **Exercise 6: Bubble Sort for Linked List**
-   - **Problem**: Implement Bubble Sort to sort a singly linked list.
+3. **Exercise 6: Bubble Sort for List of Lists**
+   - **Problem**: Implement Bubble Sort to sort a list containing many lists. Every list (including the outermost one) should be sorted.
