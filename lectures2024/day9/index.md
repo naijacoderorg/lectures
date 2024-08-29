@@ -6,7 +6,7 @@ Day 9: Sorting Algorithms: Part 2
 * Answer questions about sorting algorithms
 * Discuss exercises from previous day
 
-Quicksort is a highly efficient sorting algorithm and is based on the divide-and-conquer strategy. It works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays according to whether they are less than or greater than the pivot. The sub-arrays are then recursively sorted.
+Quicksort is a highly efficient sorting algorithm and is based on the divide-and-conquer strategy. It works by selecting a `pivot` element from the array and partitioning the other elements into two sub-arrays according to whether they are less than or greater than the pivot. The sub-arrays are then recursively sorted.
 
 ### Description
 
@@ -193,7 +193,7 @@ Exercises
 ### Quick Sort Exercises
 
 1. **Exercise 1: Implement Quick Sort**
-   - **Problem**: Write a function `quick_sort(arr)` that sorts an array `arr` using the Quick Sort algorithm.
+   - **Problem**: Write a function `quick_sort(arr)` that sorts an array `arr` using the Quick Sort algorithm. Can you implement without the use of recursion?
 
 2. **Exercise 2: Randomized Pivot Selection**
    - **Problem**: Modify the `quick_sort` function to use a randomly selected pivot to improve performance on average.
@@ -204,10 +204,10 @@ Exercises
 ### Merge Sort Exercises
 
 1. **Exercise 4: Implement Merge Sort**
-   - **Problem**: Write a function `merge_sort(arr)` that sorts an array `arr` using the Merge Sort algorithm.
+   - **Problem**: Write a function `merge_sort(arr)` that sorts an array `arr` using the Merge Sort algorithm. Can you implement without the use of recursion?
 
-2. **Exercise 5: Bottom-Up Merge Sort**
-   - **Problem**: Implement a bottom-up version of Merge Sort that sorts the array iteratively instead of recursively.
+2. **Exercise 5: Merge Sort with Uneven Splits**
+   - **Problem**: Implement a bottom-up version of Merge Sort that sorts the array iteratively instead of recursively; also the Merge Sort should divide the list unevenly during the split operations (e.g., 1/4 and 3/4 fraction of the lists).
 
-3. **Exercise 6: Merge Sort for Linked List**
-   - **Problem**: Implement Merge Sort to sort a singly linked list.
+3. **Exercise 6: Merge Sort using QuickSort**
+   - **Problem**: Implement Merge Sort that uses QuickSort in the following way: if the middle item is a balanced pivot choice, then use QuickSort. If not, default to Merge Sort.
