@@ -4,7 +4,6 @@ Day 10: Review, Recap, Exam
 Morning
 -------
 
-### Exam:
 * Provide the open-note exam
 * Chat about teacher's education experience while TA grades exams
 * Give back exams and give cash prize
