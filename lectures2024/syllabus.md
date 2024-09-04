@@ -16,3 +16,7 @@ Times
 * Morning Session: 8am-12pm
 * Lunch: 12pm-1pm
 * Afternoon Session: 1pm-3pm
+
+PDF
+===
+The compiled PDF for the 2024 lecture notes is available [here](https://arxiv.org/abs/2409.01499).
